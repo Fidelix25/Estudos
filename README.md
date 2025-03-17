@@ -3,5 +3,3 @@
 - Curso Web Development
 - Curso DSA
 - Curso JavaScript
-
-Development branch added
