@@ -15,7 +15,7 @@ let PI = 3.1415;
 
 let myFirstJob = "Programmer"
 let myCurrentJob = "Teacher"
-*/
+
 //Basic Operators
 //Math Operators
 const now = 2037;
@@ -54,3 +54,50 @@ console.log(z, y)
 const averageAge = (ageWashington + ageSarah) / 2;
 
 console.log( ageWashington, ageSarah, averageAge)
+
+//String interpolation - Template Literal
+
+const firstName = "Washington";
+const birthYear = 1994;
+const year = 2025;
+const job = "Power Apps Developer";
+const title =
+  "I'm " + firstName + ", a " + (year - birthYear) + " year old " + job + "!";
+console.log(title);
+
+const titleNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+
+console.log(titleNew);
+
+//Multiple lines
+console.log(`String with
+multiple
+lines`);
+
+//Conditionals - control structure
+
+const age = 15;
+const isOldEnough = age >= 18;
+
+if (age >= 18) {
+  console.log(`Sarah can start driving license 🚗`);
+} else {
+  const yearsLeft = 18 - age;
+  console.log(`Sarah is too young. Wait another ${yearsLeft} years`);
+}
+
+const birthYear = 2003;
+
+let century;
+if (birthYear <= 2000) {
+  century = 20;
+} else {
+  century = 21;
+}
+
+console.log(century);
+*/
+
+const inputYear = "1994";
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18);
